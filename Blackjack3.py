@@ -32,7 +32,7 @@ def compair(user_score, computer_score):
         return f'''You Went Over 21, \n {loose}'''
 
     elif computer_score > 21:
-        return "Computer went over 21 , *** YOU WON ***"
+        return f"Computer went over 21 , \n{won}"
 
     elif user_score > computer_score:
         return f'{won}'
